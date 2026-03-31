@@ -12,6 +12,6 @@ jobs:
         uses: bcomnes/deploy-to-neocities@v1
         with:
           # Change "api_token" to "api_key"
-          api_key: ${{ secrets.NEOCITIES_API_TOKEN }} 
+          api_key: ${{ secrets.NEOCITIES }} 
           cleanup: false
           dist_dir: .
